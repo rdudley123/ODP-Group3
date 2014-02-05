@@ -9,7 +9,6 @@ body {
 	stroke-linejoin: round;
 }
 #map {
-	position: absolute;
 	width: 800px;
 }
 #content {
