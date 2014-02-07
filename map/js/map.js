@@ -1,7 +1,7 @@
 // Load all the data in 3 different formats and call 
 
 queue()
-    .defer(d3.json, "data/uksha.json")
+    .defer(d3.json, "data/world-50m.json")
     .defer(d3.tsv, "data/world-country-names.tsv")
     .defer(d3.csv, config.data_file)
     .await(ready);
